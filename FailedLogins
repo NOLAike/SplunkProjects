@@ -1,0 +1,3 @@
+index=windows_security EventCode=4625
+| eval user=coalesce(TargetUserName, User_Name)
+| table _time, host, user, Logon_Type, Failure_Reason
