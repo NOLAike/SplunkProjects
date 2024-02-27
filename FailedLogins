@@ -5,3 +5,5 @@ index=windows_security EventCode=4625
 index=app_logs "login failed"
 | rex "user=(?<user>\S+)"
 | table _time, host, user, app
+
+Sample
