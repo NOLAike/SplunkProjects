@@ -7,3 +7,4 @@ index=app_logs "login failed"
 | table _time, host, user, app
 
 Sample
+sample
